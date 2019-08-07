@@ -2,11 +2,13 @@
 /* project divs */
 .project-group {
     max-width: 75%;
+    margin: auto;
 }
 
 
 .projects {
     width: 100%;
+    border: 1px solid #000000;
 }
 
 .project-title {
