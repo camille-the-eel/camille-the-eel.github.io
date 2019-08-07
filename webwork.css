@@ -5,11 +5,10 @@
 
 .project-group {
     max-width: 75%;
-    overflow: hidden;
 }
 
-img .projects {
-    max-width: 85%;
+img {
+    max-width: 100%;
     border: 1px solid #000000;
 }
 
