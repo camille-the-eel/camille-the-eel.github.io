@@ -1,10 +1,14 @@
-/* project divs */
-.project-group {
-    max-width: 75%;
+.content {
+    width: 75%;
     margin: auto;
 }
 
-.projects {
+.project-group {
+    max-width: 75%;
+    overflow: hidden;
+}
+
+img .projects {
     max-width: 85%;
     border: 1px solid #000000;
 }
