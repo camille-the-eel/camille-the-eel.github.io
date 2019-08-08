@@ -12,6 +12,10 @@ img {
     border: 1px solid #000000;
 }
 
+.media-icon {
+    border: none;
+}
+
 .project-title {
     color: #363434;
     font-family: din-condensed, sans-serif;
