@@ -17,6 +17,7 @@ img {
 }
 
 .project-title {
+    margin-top: 60px;
     color: #363434;
     font-family: din-condensed, sans-serif;
     font-weight: 400;
