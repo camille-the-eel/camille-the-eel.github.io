@@ -32,7 +32,7 @@ nav {
 
 .nav-content {
     color: #363434 !important;
-    margin: 5px 25px 0px 20px;
+    margin: 0px 25px 0px 20px;
 }
 
 .nav-list {
@@ -59,10 +59,6 @@ nav ul li a {
 
 a {
     color: #ffffff !important;
-}
-
-.inline-link {
-    color: #363434 !important;
 }
 
 /* BODY */
