@@ -18,7 +18,7 @@ nav {
 
 .nav-logo {
     color: #363434 !important;
-    margin-left: 3%;
+    margin-left: 10px;
     margin-top: 5px;
 }
 
@@ -175,7 +175,7 @@ a {
 
 /* MEDIA QUERIES FOR MOBILE & TABLET SCREENS */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .title {
         font-size: 70px;
     }
