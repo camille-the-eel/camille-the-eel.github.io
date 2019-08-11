@@ -22,11 +22,6 @@
     text-align: center;
 }
 
-.content {
-    width: 75%;
-    margin: auto;
-}
-
 .project-group {
     max-width: 80%;
     margin: auto;
@@ -35,11 +30,23 @@
 img.projects.L {
     max-width: 100%;
     border: 8px solid #363434;
-    box-shadow: 15px 15px #ffffff, 50px 50px #363434;
+    box-shadow: 12px 12px #ffffff, 40px 40px #363434;
+    /* 52px of box-shadow */
+    margin-bottom: 60px;
 }
 
 .break {
     width: 50px;
+}
+
+.project-group {
+    position: relative;
+}
+
+.project-text{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .media-icon {
@@ -52,7 +59,7 @@ img.projects.L {
     font-family: din-condensed, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1;
 }
 
