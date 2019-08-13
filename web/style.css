@@ -22,31 +22,23 @@
     text-align: center;
 }
 
+.project-separator {
+    height: 10vh;
+}
+
 .project-group {
     max-width: 80%;
     margin: auto;
+    position: relative;
 }
 
-img.projects.L {
+/* erase -- just sizing imgs down for testing */
+img.projects {
     max-width: 100%;
-    border: 8px solid #363434;
-    box-shadow: 12px 12px #ffffff, 40px 40px #363434;
-    /* 52px of box-shadow */
-    margin-bottom: 60px;
 }
 
 .break {
     width: 50px;
-}
-
-.project-group {
-    position: relative;
-}
-
-.project-text{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
 }
 
 .media-icon {
@@ -55,6 +47,7 @@ img.projects.L {
 
 .project-title {
     margin-top: 60px;
+    margin-bottom: 6px;
     color: #363434;
     font-family: din-condensed, sans-serif;
     font-weight: 400;
@@ -66,23 +59,107 @@ img.projects.L {
 .project-descrip {
     color: #363434 !important;
     font-family: din-condensed, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
     line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.project-tech span {
+    background-color: #363434;
+    color: #ffffff;
+    font-family: din-condensed, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.project-tech {
+    margin: 20px 0px 10px 0px;;
+}
+
+.project-code {
+    color: #363434 !important;
+    font-family: din-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.material-icons.md-18 { 
+    font-size: 12px; 
+    padding-left: 1.5px;
+    position: relative;
+    top: 1px;
 }
 
 /* MEDIA QUERIES FOR MOBILE & TABLET SCREENS */
 
 /* responsive title text using media queries --- replace with sass integration */
 
-@media only screen and (max-width: 819px) {
-    .header-title  {
-        font-size: 75px;
+@media only screen and (max-width: 1030px) {
+    .project-title {
+        font-size: 40px;
+    }
+    
+    .project-descrip {
+        font-size: 16px;
+    }
+    
+    .project-tech span {
+        font-size: 16px;
+        padding: 4px 7px;
+        margin-right: 4px;
+    }
+
+    .project-code {
+        font-size: 16px;
+    }
+    
+    .material-icons.md-18 { 
+        top: 1.4px;
     }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 860px) {
+    .project-title {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 33px;
+    }
+    
+    .project-descrip {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    
+    .project-tech span {
+        font-size: 15px;
+        padding: 4px 7px;
+        margin-right: 4px;
+    }
+
+    .project-code {
+        font-size: 15px;
+    }
+    
+    .material-icons.md-18 { 
+        top: 1.4px;
+    }
+}
+
+@media only screen and (max-width: 819px) {
+    .header-title  {
+        font-size: 72px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     .header {
         margin-top: 25px;
     }
@@ -90,6 +167,24 @@ img.projects.L {
     .header-title  {
         font-size: 65px;
         padding: 50px 0px;
+    }
+
+    .project-group {
+        position: static;
+        margin: 6%;
+    }
+    
+    .project-text {
+        position: static;
+        padding-top: 15px;
+    } 
+
+    .project-tech {
+        margin: 15px 0px 7px 0px;;
+    }
+
+    .project-code {
+        margin: 0px;
     }
 }
 
@@ -119,6 +214,10 @@ img.projects.L {
 @media only screen and (max-width: 523px) {
     .header-title  {
         font-size: 45px;
+    }
+
+    .project-group {
+        margin: 5%;
     }
 }
 

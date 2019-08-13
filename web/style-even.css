@@ -1,0 +1,14 @@
+img.projects.even {
+    max-width: 100%;
+    border: 8px solid #363434;
+    box-shadow: -12px 12px #ffffff, -40px 40px #363434;
+    /* 52px of box-shadow */
+    margin-bottom: 60px;
+}
+
+.project-text.even {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
