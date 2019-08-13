@@ -12,3 +12,38 @@ img.projects.even {
     bottom: 0px;
     left: 0px;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .project-group.even {
+        position: static;
+        margin-left: 15%;
+    }
+
+    .project-text.even {
+        position: static;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .project-group.even {
+        margin-left: 13%;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+    img.projects.even {
+        border: 8px solid #363434;
+        box-shadow: -10px 10px #ffffff, -35px 35px #363434;
+        /* 45px of box-shadow */
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    img.projects.even {
+        border: 6px solid #363434;
+        box-shadow: -8px 8px #ffffff, -30px 30px #363434;
+        /* 38 px of box-shadow */
+    }
+}
