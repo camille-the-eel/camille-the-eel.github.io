@@ -7,6 +7,10 @@
     height: 13vh;
 }
 
+.project-separator.foot {
+    height: 13vh;
+}
+
 .header-title {
     font-family: din-condensed, sans-serif;
     font-weight: 400;
@@ -72,11 +76,8 @@ img.projects {
     font-size: 18px;
     line-height: 1.4;
     padding: 5px 8px;
-    margin-right: 5px;
-}
-
-.project-tech {
-    margin: 20px 0px 10px 0px;;
+    display: inline-block;
+    margin: 20px 5px 10px 0px;
 }
 
 .project-code {
@@ -99,7 +100,7 @@ img.projects {
 
 /* responsive title text using media queries --- replace with sass integration */
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1370px) {
     .project-title {
         font-size: 40px;
     }
@@ -111,7 +112,7 @@ img.projects {
     .project-tech span {
         font-size: 16px;
         padding: 4px 7px;
-        margin-right: 4px;
+        margin: 20px 4px 10px 0px;
     }
 
     .project-code {
@@ -123,30 +124,48 @@ img.projects {
     }
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 992px) {
+    .project-separator.head {
+        height: 5vh;
+    }
+
+    .project-separator  {
+        height: 3vh;
+    }
+
+    .project-separator.foot {
+        height: 5vh;
+    }
+
+    .project-group {
+        position: static;
+        margin: 6%;
+    }
+
+    .project-text {
+        position: static;
+        padding-top: 0px;
+    } 
+
     .project-title {
-        margin-top: 20px;
-        margin-bottom: 5px;
-        font-size: 33px;
+        margin-top: 30px;
+        font-size: 45px;
     }
     
     .project-descrip {
-        font-size: 15px;
-        margin-bottom: 8px;
+        font-size: 20px;
     }
     
     .project-tech span {
-        font-size: 15px;
-        padding: 4px 7px;
-        margin-right: 4px;
+        font-size: 18px;
     }
 
     .project-code {
-        font-size: 15px;
+        font-size: 18px;
     }
     
     .material-icons.md-18 { 
-        top: 1.4px;
+        top: 1px;
     }
 }
 
@@ -165,24 +184,6 @@ img.projects {
         font-size: 65px;
         padding: 50px 0px;
     }
-
-    .project-group {
-        position: static;
-        margin: 6%;
-    }
-    
-    .project-text {
-        position: static;
-        padding-top: 15px;
-    } 
-
-    .project-tech {
-        margin: 15px 0px 7px 0px;;
-    }
-
-    .project-code {
-        margin: 0px;
-    }
 }
 
 @media only screen and (max-width: 670px) {
@@ -194,6 +195,29 @@ img.projects {
 @media only screen and (max-width: 620px) {
     .header-title  {
         font-size: 55px;
+    }
+
+    .project-title {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 33px;
+    }
+    
+    .project-descrip {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    
+    .project-tech span {
+        font-size: 15px;
+    }
+
+    .project-code {
+        font-size: 15px;
+    }
+    
+    .material-icons.md-18 { 
+        top: 1.4px;
     }
 }
 
@@ -221,6 +245,10 @@ img.projects {
 @media only screen and (max-width: 473px) {
     .header-title  {
         font-size: 35px;
+    }
+
+    .project-title {
+        margin-top: 5px;
     }
 }
 
