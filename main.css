@@ -229,6 +229,9 @@ a {
         padding-right: 4%;
     }
 
+    .media-icon {
+        width: 40px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
