@@ -98,8 +98,6 @@ img.projects {
 
 /* MEDIA QUERIES FOR MOBILE & TABLET SCREENS */
 
-/* responsive title text using media queries --- replace with sass integration */
-
 @media only screen and (max-width: 1370px) {
     .project-title {
         font-size: 40px;
